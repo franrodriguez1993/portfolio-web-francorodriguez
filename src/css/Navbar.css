@@ -1,0 +1,59 @@
+.navbar {
+  font-family: var(--ubuntu);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.changeColorNavbar {
+  background-color: #fff;
+  outline: 3px solid #ececec;
+}
+.nav-title {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+.nav-link {
+  font-weight: bolder;
+}
+.nav-link:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.navbar-language {
+  position: absolute;
+  right: 5%;
+}
+.container-select {
+  display: flex;
+  align-items: center;
+}
+
+.language-icon {
+  width: 1.3rem;
+}
+.select-language {
+  border: none;
+  border-radius: 10px;
+  padding: 0.2rem;
+  background-color: #ececec;
+  font-weight: bolder;
+}
+.language-option {
+  border: none;
+  border-radius: 10px;
+  font-weight: bolder;
+  background-color: #ececec;
+}
+
+/*    MEDIA QUERIES    */
+
+@media (max-width: 990px) {
+  .navbar-language {
+    position: static;
+  }
+  .container-select {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,40 @@
+.skill-route {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 90vh;
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.tech-card {
+  margin: 2rem;
+  height: 12rem;
+  width: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.tech-card:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.tech-card_img {
+  width: 8rem;
+}
+.tech-card_name {
+  font-weight: bolder;
+}

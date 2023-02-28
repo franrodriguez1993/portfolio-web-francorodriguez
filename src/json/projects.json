@@ -1,0 +1,30 @@
+{
+  "backend": [
+    {
+      "id": 1,
+      "name": "Shaknet-API",
+      "technologies": "Node-Express - Typescript - PostgreSQL",
+      "preview": "https://i.postimg.cc/mrymwtFg/Sharknet2.png",
+      "github": "https://github.com/franrodriguez1993/sharknet-api.git",
+      "docs": "https://documenter.getpostman.com/view/22341124/2s8Z6vaaGK"
+    }
+  ],
+  "frontend": [
+    {
+      "id": 1,
+      "name": "Sharknet",
+      "type": "E-commerce",
+      "preview": "/assets/img/sharknet.png",
+      "github": "https://github.com/franrodriguez1993/sharket-web.git",
+      "url": "https://sharknetweb.onrender.com"
+    },
+    {
+      "id": 2,
+      "name": "Spartan Food",
+      "type": "Static-Web",
+      "preview": "/assets/img/spartanfood.png",
+      "github": "https://github.com/franrodriguez1993/spartanfood.git",
+      "url": "https://spartanfoodrestaurant.onrender.com/"
+    }
+  ]
+}

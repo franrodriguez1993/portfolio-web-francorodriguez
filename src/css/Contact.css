@@ -1,0 +1,30 @@
+.contact-route {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact-img {
+  width: 5rem;
+}
+.contact-img:hover {
+  cursor: pointer;
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
+/*  -------  MEDIA QUERIES  -------  */
+@media (max-width: 800px) {
+  .contact-container {
+    width: 80%;
+  }
+}

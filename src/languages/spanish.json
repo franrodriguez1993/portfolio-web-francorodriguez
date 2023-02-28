@@ -1,0 +1,27 @@
+{
+  "language": "es",
+  "navbar": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "skills": "Habilidades",
+    "contact": "Contacto"
+  },
+  "home": {
+    "hello": "¡Hola!",
+    "description": "Mi nombre es Franco Rodríguez y soy Programador."
+  },
+  "projects": {
+    "title": "Mis Proyectos",
+    "card": {
+      "title": "Título",
+      "technologies": "Tecnologias",
+      "type": "Tipo"
+    }
+  },
+  "skills": {
+    "title": "Tecnologias"
+  },
+  "contact": {
+    "title": "Contacto"
+  }
+}
