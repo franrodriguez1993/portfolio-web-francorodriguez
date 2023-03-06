@@ -7,6 +7,14 @@
       "preview": "https://i.postimg.cc/mrymwtFg/Sharknet2.png",
       "github": "https://github.com/franrodriguez1993/sharknet-api.git",
       "docs": "https://documenter.getpostman.com/view/22341124/2s8Z6vaaGK"
+    },
+    {
+      "id": 2,
+      "name": "Bibliogames-API",
+      "technologies": "Node-Express - Typescript - MongoDB - GraphQL",
+      "preview": "https://i.postimg.cc/bNvgHCnJ/png-transparent-video-game-game-controllers-gaming-miscellaneous-game-logo-thumbnail.png",
+      "github": "https://github.com/franrodriguez1993/BiblioGames-API.git",
+      "docs": "https://documenter.getpostman.com/view/22341124/2s93JoxRFD"
     }
   ],
   "frontend": [

@@ -11,6 +11,7 @@ import nodeIcon from "../svg/nodejs.svg";
 import bootstrapIcon from "../svg/bootstrap.svg";
 import mongodb from "../svg/mongodb.svg";
 import postgresql from "../svg/postgresql.svg";
+import graphql from "../svg/graphql.svg";
 
 const Skills = () => {
   const { text } = useContext(LanguageContext);
@@ -52,6 +53,11 @@ const Skills = () => {
         <div className="tech-card">
           <img src={postgresql} alt="html" className="tech-card_img" />
           <p className="tech-card_name">PostgreSQL</p>
+        </div>
+
+        <div className="tech-card">
+          <img src={graphql} alt="html" className="tech-card_img" />
+          <p className="tech-card_name">GraphQL</p>
         </div>
       </section>
     </div>

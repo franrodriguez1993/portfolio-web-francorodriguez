@@ -6,7 +6,7 @@ const BackendCard = ({ project, text }) => {
     <div className="backend-card">
       <div className="backend-img">
         <img
-          src="https://i.postimg.cc/mrymwtFg/Sharknet2.png"
+          src={project.preview}
           alt="img"
           className="backend-preview_image"
         />
