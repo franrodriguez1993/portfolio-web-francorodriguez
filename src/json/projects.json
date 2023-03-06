@@ -25,6 +25,22 @@
       "preview": "/assets/img/spartanfood.png",
       "github": "https://github.com/franrodriguez1993/spartanfood.git",
       "url": "https://spartanfoodrestaurant.onrender.com/"
+    },
+    {
+      "id": 3,
+      "name": "Linux Tec",
+      "type": "Static-Web",
+      "preview": "/assets/img/linuxtec.png",
+      "github": "https://github.com/franrodriguez1993/linuxtec.git",
+      "url": "https://linuxtec.vercel.app/"
+    },
+    {
+      "id": 4,
+      "name": "Ruby | Medical Center",
+      "type": "Static-Web",
+      "preview": "/assets/img/rubymedicalcenter.png",
+      "github": "https://github.com/franrodriguez1993/ruby-medical-center.git",
+      "url": "https://ruby-medical-center.vercel.app/"
     }
   ]
 }
