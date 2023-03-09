@@ -2,7 +2,14 @@ import React, { useContext, useState } from "react";
 import "../../css/Navbar.css";
 import worldIcon from "../../svg/language.svg";
 import { LanguageContext } from "../../context/LanguageProvider";
-const Navbar = () => {
+
+const Navbar = ({
+  scrollToSection,
+  contactRef,
+  aboutRef,
+  projectRef,
+  skillsRef,
+}) => {
   const [colorChange, setColorchange] = useState(false);
 
   //Language:
@@ -25,7 +32,7 @@ const Navbar = () => {
       }`}
     >
       <div className="container-fluid">
-        <a className="navbar-brand nav-title" href="#">
+        <a className="navbar-brand nav-title" href="/">
           Rodriguez Franco
         </a>
         <button
@@ -41,25 +48,28 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
-            <li className="nav-item">
-              <a className="nav-link" aria-current="page" href="#">
+            <li className="nav-item ">
+              <a href="/" className="nav-link">
                 {text.navbar.home}
               </a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#projects">
-                {text.navbar.projects}
-              </a>
+            <li
+              className="nav-item nav-link"
+              onClick={() => scrollToSection(projectRef)}
+            >
+              {text.navbar.projects}
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#skills">
-                {text.navbar.skills}
-              </a>
+            <li
+              className="nav-item nav-link"
+              onClick={() => scrollToSection(skillsRef)}
+            >
+              {text.navbar.skills}
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#contact">
-                {text.navbar.contact}
-              </a>
+            <li
+              className="nav-item nav-link"
+              onClick={() => scrollToSection(contactRef)}
+            >
+              {text.navbar.contact}
             </li>
           </ul>
           <ul className="navbar-nav navbar-language">

@@ -6,7 +6,7 @@ import Contact from "./Contact";
 import Project from "./Projects";
 import Skills from "./Skills";
 
-const LandingPage = () => {
+const LandingPage = ({ contactRef, projectRef, skillsRef }) => {
   const [showButtom, SetShowButton] = useState(false);
 
   const projectSection = document.querySelector(".projectSection");
@@ -54,22 +54,21 @@ const LandingPage = () => {
 
   return (
     <div>
-      <a id="aboutme" href="/"></a>
       <section>
         <AboutMe />
       </section>
 
-      <a id="projects"></a>
+      <div ref={projectRef}></div>
       <section className="projectSection">
         <Project />
       </section>
 
-      <a id="skills" href="/"></a>
+      <div ref={skillsRef}></div>
       <section className="skillSection">
         <Skills />
       </section>
 
-      <a id="contact" href="/"></a>
+      <div ref={contactRef}></div>
       <section className="contactSection">
         <Contact />
       </section>
