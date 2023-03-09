@@ -22,7 +22,7 @@
       "id": 1,
       "name": "Sharknet",
       "type": "E-commerce",
-      "preview": "/assets/img/sharknet.png",
+      "preview": "/assets/img/sharknet.webp",
       "github": "https://github.com/franrodriguez1993/sharket-web.git",
       "url": "https://sharknetweb.onrender.com"
     },
@@ -30,7 +30,7 @@
       "id": 2,
       "name": "Spartan Food",
       "type": "Static-Web",
-      "preview": "/assets/img/spartanfood.png",
+      "preview": "/assets/img/spartanfood.webp",
       "github": "https://github.com/franrodriguez1993/spartanfood.git",
       "url": "https://spartanfoodrestaurant.onrender.com/"
     },
@@ -38,7 +38,7 @@
       "id": 3,
       "name": "Linux Tec",
       "type": "Static-Web",
-      "preview": "/assets/img/linuxtec.png",
+      "preview": "/assets/img/linuxtec.webp",
       "github": "https://github.com/franrodriguez1993/linuxtec.git",
       "url": "https://linuxtec.vercel.app/"
     },
@@ -46,7 +46,7 @@
       "id": 4,
       "name": "Ruby | Medical Center",
       "type": "Static-Web",
-      "preview": "/assets/img/rubymedicalcenter.png",
+      "preview": "/assets/img/rubymedicalcenter.webp",
       "github": "https://github.com/franrodriguez1993/ruby-medical-center.git",
       "url": "https://ruby-medical-center.vercel.app/"
     }

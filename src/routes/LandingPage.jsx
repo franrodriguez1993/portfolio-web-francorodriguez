@@ -33,44 +33,44 @@ const LandingPage = () => {
     //Projects:
     let distance_project =
       window.innerHeight - projectSection.getBoundingClientRect().top;
-    if (distance_project >= 200) {
+    if (distance_project >= 100) {
       projectSection.classList.add("effect-fade");
     }
 
     //Skills:
     let distance_skill =
       window.innerHeight - skillSection.getBoundingClientRect().top;
-    if (distance_skill >= 200) {
+    if (distance_skill >= 100) {
       skillSection.classList.add("effect-fade");
     }
 
     //Contact:
     let distance_contact =
       window.innerHeight - contactSection.getBoundingClientRect().top;
-    if (distance_contact >= 200) {
+    if (distance_contact >= 100) {
       contactSection.classList.add("effect-fade");
     }
   }
 
   return (
     <div>
+      <a id="aboutme" href="/"></a>
       <section>
-        <a id="aboutme"></a>
         <AboutMe />
       </section>
 
+      <a id="projects"></a>
       <section className="projectSection">
-        <a id="projects"></a>
         <Project />
       </section>
 
+      <a id="skills" href="/"></a>
       <section className="skillSection">
-        <a id="skills"></a>
         <Skills />
       </section>
 
+      <a id="contact" href="/"></a>
       <section className="contactSection">
-        <a id="contact"></a>
         <Contact />
       </section>
 

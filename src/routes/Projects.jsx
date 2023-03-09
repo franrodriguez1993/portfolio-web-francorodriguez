@@ -12,13 +12,13 @@ const Projects = () => {
       <h1 className="section-title">{text.projects.title}</h1>
 
       <section className="backend-container">
-        <h3 className="project-type_title">Backend</h3>
+        <h2 className="project-type_title">Backend</h2>
         {projectsJSON.backend.map((p) => (
           <BackendCard key={p.id} project={p} text={text} />
         ))}
       </section>
       <section className="frontend-container">
-        <h3 className="project-type_title">Frontend</h3>
+        <h2 className="project-type_title">Frontend</h2>
         {projectsJSON.frontend.map((p) => (
           <FrontendCard key={p.id} project={p} text={text} />
         ))}

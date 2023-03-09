@@ -2,7 +2,7 @@
 .skillSection,
 .contactSection {
   opacity: 0;
-  transform: scale(0.7);
+  transform: scale(0.9);
 }
 .effect-fade {
   opacity: 1;
