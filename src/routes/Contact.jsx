@@ -4,6 +4,7 @@ import "../css/Contact.css";
 import gmailIcon from "../svg/gmail.svg";
 import linkedinIcon from "../svg/linkedin.svg";
 import whatsappIcon from "../svg/whatsapp.svg";
+
 const Contact = () => {
   const { text } = useContext(LanguageContext);
   return (
@@ -14,6 +15,7 @@ const Contact = () => {
           <a
             href="mailto:francojmprogramacion@gmail.com?subject=contact"
             target="_blank"
+            rel="noreferrer"
           >
             <img src={gmailIcon} alt="gmail" className="contact-img" />
           </a>
@@ -22,6 +24,7 @@ const Contact = () => {
           <a
             href="https://www.linkedin.com/in/franco-rodr%C3%ADguez-512075244/"
             target="_blank"
+            rel="noreferrer"
           >
             <img src={linkedinIcon} alt="linkedin" className="contact-img" />
           </a>
@@ -30,6 +33,7 @@ const Contact = () => {
           <a
             href="https://api.whatsapp.com/send?phone=543865578135&text=%C2%A1Hola%20Franco!"
             target="_blank"
+            rel="noreferrer"
           >
             <img src={whatsappIcon} alt="linkedin" className="contact-img" />
           </a>

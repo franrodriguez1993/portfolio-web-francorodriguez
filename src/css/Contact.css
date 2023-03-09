@@ -28,3 +28,8 @@
     width: 80%;
   }
 }
+@media (max-width: 600px) {
+  .contact-img {
+    width: 3rem;
+  }
+}

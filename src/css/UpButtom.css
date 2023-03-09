@@ -5,3 +5,11 @@
   width: 5rem;
   cursor: pointer;
 }
+
+/**  MEDIA QUERIES  **/
+
+@media (max-width: 600px) {
+  .upbuttom {
+    width: 3rem;
+  }
+}

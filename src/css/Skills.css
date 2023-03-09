@@ -38,3 +38,18 @@
 .tech-card_name {
   font-weight: bolder;
 }
+
+/*   MEDIA QUERIES   */
+@media (max-width: 700px) {
+  .tech-card {
+    height: 6rem;
+    width: 4rem;
+  }
+
+  .tech-card_img {
+    width: 4rem;
+  }
+  .tech-card_name {
+    font-size: 0.8rem;
+  }
+}
