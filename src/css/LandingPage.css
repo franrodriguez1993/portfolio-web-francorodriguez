@@ -1,6 +1,7 @@
 .projectSection,
 .skillSection,
-.contactSection {
+.contactSection,
+.aboutMeSection {
   opacity: 0;
   transform: scale(0.9);
 }

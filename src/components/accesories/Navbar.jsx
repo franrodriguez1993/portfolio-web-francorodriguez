@@ -3,13 +3,7 @@ import "../../css/Navbar.css";
 import worldIcon from "../../svg/language.svg";
 import { LanguageContext } from "../../context/LanguageProvider";
 
-const Navbar = ({
-  scrollToSection,
-  contactRef,
-  aboutRef,
-  projectRef,
-  skillsRef,
-}) => {
+const Navbar = ({ scrollToSection, contactRef, projectRef, skillsRef }) => {
   const [colorChange, setColorchange] = useState(false);
 
   //Language:

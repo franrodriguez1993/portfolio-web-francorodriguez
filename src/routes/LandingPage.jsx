@@ -1,14 +1,16 @@
 import React, { useEffect, useState } from "react";
 import "../css/LandingPage.css";
 import UpButtom from "../components/accesories/UpButtom";
-import AboutMe from "./AboutMe";
+import Introduction from "./Introduction";
 import Contact from "./Contact";
 import Project from "./Projects";
 import Skills from "./Skills";
+import AboutMe from "./AboutMe";
 
 const LandingPage = ({ contactRef, projectRef, skillsRef }) => {
   const [showButtom, SetShowButton] = useState(false);
 
+  const aboutMeSection = document.querySelector(".aboutMeSection");
   const projectSection = document.querySelector(".projectSection");
   const skillSection = document.querySelector(".skillSection");
   const contactSection = document.querySelector(".contactSection");
@@ -30,6 +32,13 @@ const LandingPage = ({ contactRef, projectRef, skillsRef }) => {
   };
 
   function fadeInFunction() {
+    //AboutMe:
+    let distance_aboutme =
+      window.innerHeight - aboutMeSection.getBoundingClientRect().top;
+    if (distance_aboutme >= 100) {
+      aboutMeSection.classList.add("effect-fade");
+    }
+
     //Projects:
     let distance_project =
       window.innerHeight - projectSection.getBoundingClientRect().top;
@@ -55,6 +64,10 @@ const LandingPage = ({ contactRef, projectRef, skillsRef }) => {
   return (
     <div>
       <section>
+        <Introduction />
+      </section>
+
+      <section className="aboutMeSection">
         <AboutMe />
       </section>
 

@@ -8,7 +8,11 @@
   },
   "home": {
     "hello": "Hello!",
-    "description": "My name is Franco Rodriguez and I'm a FullStack Programmer."
+    "description": "My name is Franco Rodriguez and I'm a Backend Programmer."
+  },
+  "aboutme": {
+    "title": "About Me",
+    "description": "I am a Backend jr Programmer . I have knowledge of the MERN stack and PostgreSQL. I worked as a nutritionist during the first years of my working life until I decided to completely change the direction of my life. I like challenges and I am always willing to learn new things."
   },
   "projects": {
     "title": "My Projects",

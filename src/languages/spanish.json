@@ -8,7 +8,11 @@
   },
   "home": {
     "hello": "¡Hola!",
-    "description": "Mi nombre es Franco Rodríguez y soy Programador FullStack."
+    "description": "Mi nombre es Franco Rodríguez y soy Programador Backend."
+  },
+  "aboutme": {
+    "title": "Sobre Mi",
+    "description": "Soy un Programador Backend jr. Tengo conocimientos sobre el stack MERN y PostgreSQL. Trabajé como nutricionista durante los primeros años de mi vida la laboral hasta que decidí cambiar por completo el rumbo de mi vida. Me gustan los desafíos y estoy siempre dispuesto a aprender cosas nuevas."
   },
   "projects": {
     "title": "Mis Proyectos",

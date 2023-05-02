@@ -12,12 +12,13 @@ import bootstrapIcon from "../svg/bootstrap.svg";
 import mongodb from "../svg/mongodb.svg";
 import postgresql from "../svg/postgresql.svg";
 import graphql from "../svg/graphql.svg";
+import git from "../svg/git.svg";
 
 const Skills = () => {
   const { text } = useContext(LanguageContext);
   return (
     <div className="skill-route">
-      <h1 className="section-title">{text.skills.title}</h1>
+      <h2 className="section-title">{text.skills.title}</h2>
       <section className="technologies">
         <div className="tech-card">
           <img src={htmlIcon} alt="html" className="tech-card_img" />
@@ -58,6 +59,11 @@ const Skills = () => {
         <div className="tech-card">
           <img src={graphql} alt="html" className="tech-card_img" />
           <p className="tech-card_name">GraphQL</p>
+        </div>
+
+        <div className="tech-card">
+          <img src={git} alt="html" className="tech-card_img" />
+          <p className="tech-card_name">Git</p>
         </div>
       </section>
     </div>

@@ -9,7 +9,7 @@ const Contact = () => {
   const { text } = useContext(LanguageContext);
   return (
     <div className="contact-route">
-      <h1 className="section-title">{text.contact.title}</h1>
+      <h2 className="section-title">{text.contact.title}</h2>
       <section className="contact-container">
         <div className="contact-card">
           <a

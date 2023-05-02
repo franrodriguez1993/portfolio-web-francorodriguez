@@ -9,7 +9,7 @@ const Projects = () => {
   const { text } = useContext(LanguageContext);
   return (
     <div className="project-route">
-      <h1 className="section-title">{text.projects.title}</h1>
+      <h2 className="section-title">{text.projects.title}</h2>
 
       <section className="backend-container">
         <h2 className="project-type_title">Backend</h2>
