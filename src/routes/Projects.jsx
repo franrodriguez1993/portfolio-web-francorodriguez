@@ -17,6 +17,14 @@ const Projects = () => {
           <BackendCard key={p.id} project={p} text={text} />
         ))}
       </section>
+
+      <section className="frontend-container">
+        <h2 className="project-type_title">SCRUM Full Projects</h2>
+        {projectsJSON.group.map((p) => (
+          <FrontendCard key={p.id} project={p} text={text} />
+        ))}
+      </section>
+
       <section className="frontend-container">
         <h2 className="project-type_title">Frontend</h2>
         {projectsJSON.frontend.map((p) => (

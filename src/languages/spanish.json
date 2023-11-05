@@ -12,7 +12,7 @@
   },
   "aboutme": {
     "title": "Sobre Mi",
-    "description": "Soy un Programador Backend jr. Tengo conocimientos sobre el stack MERN y PostgreSQL. Trabajé como nutricionista durante los primeros años de mi vida la laboral hasta que decidí cambiar por completo el rumbo de mi vida. Me gustan los desafíos y estoy siempre dispuesto a aprender cosas nuevas."
+    "description": "Soy un Programador Backend jr. Tengo conocimientos sobre Typescript, C# y bases de datos Relacionales y No Relacionales. Trabajé como nutricionista durante 5 años hasta que decidí cambiar por completo el rumbo de mi vida. Me gustan los desafíos y estoy siempre dispuesto a aprender cosas nuevas."
   },
   "projects": {
     "title": "Mis Proyectos",
@@ -23,7 +23,7 @@
     }
   },
   "skills": {
-    "title": "Tecnologias"
+    "title": "Tecnologías y Herramientas"
   },
   "contact": {
     "title": "Contacto"

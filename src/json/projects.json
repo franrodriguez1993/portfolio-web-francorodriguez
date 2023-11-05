@@ -58,5 +58,15 @@
       "github": "https://github.com/franrodriguez1993/ruby-medical-center.git",
       "url": "https://ruby-medical-center.vercel.app/"
     }
+  ],
+  "group": [
+    {
+      "id": 1,
+      "name": "EasyBank",
+      "type": "Fintech",
+      "preview": "/assets/img/easybank.png",
+      "github": "none",
+      "url": "https://easybank-c14-19.vercel.app/"
+    }
   ]
 }

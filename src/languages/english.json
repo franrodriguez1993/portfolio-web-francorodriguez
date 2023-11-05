@@ -12,7 +12,7 @@
   },
   "aboutme": {
     "title": "About Me",
-    "description": "I am a Backend jr Programmer . I have knowledge of the MERN stack and PostgreSQL. I worked as a nutritionist during the first years of my working life until I decided to completely change the direction of my life. I like challenges and I am always willing to learn new things."
+    "description": "I am a Backend Programmer jr. I have knowledge about Typescript, C# and Relational and Non-Relational databases. I worked as a nutritionist for 5 years until I decided to completely change the direction of my life. I like challenges and I'm always willing to learn new things."
   },
   "projects": {
     "title": "My Projects",
@@ -23,7 +23,7 @@
     }
   },
   "skills": {
-    "title": "Technologies"
+    "title": "Technologies and Tools"
   },
   "contact": {
     "title": "Contacts"

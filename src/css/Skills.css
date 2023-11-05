@@ -18,8 +18,8 @@
 
 .tech-card {
   margin: 2rem;
-  height: 12rem;
-  width: 10rem;
+  height: 8rem;
+  width: 6rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -33,7 +33,7 @@
 }
 
 .tech-card_img {
-  width: 8rem;
+  width: 5rem;
 }
 .tech-card_name {
   font-weight: bolder;
@@ -42,14 +42,28 @@
 /*   MEDIA QUERIES   */
 @media (max-width: 700px) {
   .tech-card {
-    height: 6rem;
-    width: 4rem;
+    height: 5rem;
+    width: 3rem;
   }
 
   .tech-card_img {
-    width: 4rem;
+    width: 3rem;
   }
   .tech-card_name {
     font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .tech-card {
+    height: 2.5rem;
+    width: 1.5rem;
+  }
+
+  .tech-card_img {
+    width: 1.5rem;
+  }
+  .tech-card_name {
+    font-size: 0.5rem;
   }
 }
