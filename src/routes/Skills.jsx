@@ -3,19 +3,18 @@ import "../css/Skills.css";
 //Context:
 import { LanguageContext } from "../context/LanguageProvider";
 //ICONS:
-import htmlIcon from "../svg/html.svg";
-import cssIcon from "../svg/css.svg";
 import reactIcon from "../svg/react.svg";
 import tsIcon from "../svg/typescript.svg";
 import nodeIcon from "../svg/nodejs.svg";
-import bootstrapIcon from "../svg/bootstrap.svg";
 import mongodb from "../svg/mongodb.svg";
-import postgresql from "../svg/postgresql.svg";
+import mysql from "../svg/mysql.svg";
 import graphql from "../svg/graphql.svg";
 import git from "../svg/git.svg";
 import nestJS from "../svg/nestjs.svg";
 import docker from "../svg/docker.svg";
-import jira from "../svg/jira.svg";
+import cloudflare from "../svg/cloudflare.svg";
+import ai from "../svg/ai.svg";
+import linux from "../svg/linux.svg";
 
 const Skills = () => {
   const { text } = useContext(LanguageContext);
@@ -44,8 +43,8 @@ const Skills = () => {
         </div>
 
         <div className="tech-card">
-          <img src={postgresql} alt="html" className="tech-card_img" />
-          <p className="tech-card_name">PostgreSQL</p>
+          <img src={mysql} alt="html" className="tech-card_img" />
+          <p className="tech-card_name">MySQL</p>
         </div>
 
         <div className="tech-card">
@@ -63,26 +62,20 @@ const Skills = () => {
         </div>
 
         <div className="tech-card">
-          <img src={jira} alt="html" className="tech-card_img" />
-          <p className="tech-card_name">Jira</p>
-        </div>
-
-        <div className="tech-card">
-          <img src={htmlIcon} alt="html" className="tech-card_img" />
-          <p className="tech-card_name">HTML</p>
-        </div>
-        <div className="tech-card">
-          <img src={cssIcon} alt="html" className="tech-card_img" />
-          <p className="tech-card_name">CSS</p>
-        </div>
-        <div className="tech-card">
-          <img src={bootstrapIcon} alt="html" className="tech-card_img" />
-          <p className="tech-card_name">Bootstrap</p>
-        </div>
-
-        <div className="tech-card">
           <img src={reactIcon} alt="html" className="tech-card_img" />
           <p className="tech-card_name">React</p>
+        </div>
+        <div className="tech-card">
+          <img src={cloudflare} alt="html" className="tech-card_img" />
+          <p className="tech-card_name">Cloudflare</p>
+        </div>
+        <div className="tech-card">
+          <img src={ai} alt="html" className="tech-card_img" />
+          <p className="tech-card_name">LangChain</p>
+        </div>
+        <div className="tech-card">
+          <img src={linux} alt="html" className="tech-card_img" />
+          <p className="tech-card_name">Linux</p>
         </div>
       </section>
     </div>

@@ -12,7 +12,8 @@
   flex-wrap: wrap;
   justify-content: center;
   width: 80%;
-  background-color: #fff;
+  background: rgb(3,35,83);
+  background: linear-gradient(90deg, rgba(3,35,83,0.8435749299719888) 100%, rgba(3,35,83,0.8687850140056023) 100%, rgba(3,35,83,1) 100%);
   border-radius: 10px;
 }
 
@@ -37,6 +38,7 @@
 }
 .tech-card_name {
   font-weight: bolder;
+  color: var(--color1);
 }
 
 /*   MEDIA QUERIES   */

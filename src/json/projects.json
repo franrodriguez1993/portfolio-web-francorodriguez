@@ -32,7 +32,7 @@
       "type": "E-commerce",
       "preview": "/assets/img/sharknet.webp",
       "github": "https://github.com/franrodriguez1993/sharket-web.git",
-      "url": "https://sharknetweb.onrender.com"
+      "url": "https://sharknet.francorodriguezdev.site"
     },
     {
       "id": 2,
@@ -40,7 +40,7 @@
       "type": "Static-Web",
       "preview": "/assets/img/spartanfood.webp",
       "github": "https://github.com/franrodriguez1993/spartanfood.git",
-      "url": "https://spartanfoodrestaurant.onrender.com/"
+      "url": "https://https://spartan.francorodriguezdev.site/"
     },
     {
       "id": 3,
@@ -48,7 +48,7 @@
       "type": "Static-Web",
       "preview": "/assets/img/linuxtec.webp",
       "github": "https://github.com/franrodriguez1993/linuxtec.git",
-      "url": "https://linuxtec.vercel.app/"
+      "url": "https://linuxtec.francorodriguezdev.site/"
     },
     {
       "id": 4,
@@ -56,7 +56,7 @@
       "type": "Static-Web",
       "preview": "/assets/img/rubymedicalcenter.webp",
       "github": "https://github.com/franrodriguez1993/ruby-medical-center.git",
-      "url": "https://ruby-medical-center.vercel.app/"
+      "url": "https://ruby.francorodriguezdev.site/"
     }
   ],
   "group": [

@@ -21,13 +21,13 @@
   margin-top: 5rem;
   font-size: 5rem;
   font-weight: bolder;
+  color: var(--color1);
   animation: fadeAnimation 2s ease-in forwards;
 }
 .introduction-info_subtitle {
   font-size: 1.5rem;
   font-weight: bolder;
   color: var(--color1);
-  -webkit-text-stroke: 0.1px #000;
   animation: fadeAnimation 3s ease-in forwards;
 }
 .introduction-info-description,
@@ -46,13 +46,14 @@
 }
 
 .introduction-img {
-  width: 23rem;
-  height: 23rem;
-  border-radius: 50%;
-  object-fit: cover;
-  background-color: #ececec;
-  outline: 4px solid gray;
-  animation: RightToLeft 3s ease-in forwards;
+width: 15rem;
+height: 23rem;
+border-radius: 0;
+object-fit: cover;
+background-color: #111;
+outline: 4px solid #111;
+animation: RightToLeft 3s ease-in forwards;
+box-shadow: 10px 0px 15px rgba(3, 3, 59, 0.5);
 }
 
 /* ---- MEDIA QUERIES ----*/

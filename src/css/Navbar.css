@@ -5,21 +5,29 @@
   z-index: 100;
 }
 .changeColorNavbar {
-  background-color: #fff;
+  background-color: #000000;
   outline: 3px solid #ececec;
 }
 .nav-title {
   font-weight: bolder;
   font-size: 1.5rem;
+  color: var(--color1);
 }
 .nav-link {
   font-weight: bolder;
+  color: var(--color1);
 }
 .nav-link:hover {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
   cursor: pointer;
+  color: rgb(90, 86, 86);
+}
+
+.nav-title:hover {
+  cursor: pointer;
+  color: rgb(90, 86, 86);
 }
 
 .navbar-language {
@@ -38,14 +46,15 @@
   border: none;
   border-radius: 10px;
   padding: 0.2rem;
-  background-color: #ececec;
+  background:none;
   font-weight: bolder;
+  color: var(--color1);
 }
 .language-option {
   border: none;
   border-radius: 10px;
   font-weight: bolder;
-  background-color: #ececec;
+  background-color: #000000;
 }
 
 /*    MEDIA QUERIES    */

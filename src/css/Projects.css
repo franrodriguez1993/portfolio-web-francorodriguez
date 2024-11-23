@@ -8,6 +8,7 @@
 .section-title {
   font-weight: bolder;
   margin: 2rem 0;
+  color: var(--color1);
 }
 
 .backend-container,
@@ -31,10 +32,12 @@
   width: 70%;
   display: flex;
   justify-content: space-around;
-  background-color: #fff;
   border-radius: 10px;
-  outline: 3px solid #ececec;
+  outline: 3px solid rgb(3,35,83);
   margin: 2rem 0;
+  color: var(--color1);
+  background: rgb(3,35,83);
+  background: linear-gradient(90deg, rgba(3,35,83,0.8435749299719888) 100%, rgba(3,35,83,0.8687850140056023) 100%, rgba(3,35,83,1) 100%);
 }
 
 .frontend-card:hover,
@@ -43,7 +46,7 @@
   -webkit-transform: scale(1.02);
   -ms-transform: scale(1.02);
   transform: scale(1.02);
-  outline: 4px solid #959191;
+  outline: 4px solid rgb(3,35,83);
 }
 
 .card-img,

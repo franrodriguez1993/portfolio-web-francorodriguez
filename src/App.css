@@ -9,13 +9,13 @@
   --familySecondary: "Raleway", sans-serif;
   --merriWheather: "Merriweather", serif;
   --ubuntu: "Ubuntu", sans-serif;
-  --color1: #898585;
+  --color1: #ffffff;
 }
 
 .App {
   text-align: center;
   min-height: 100vh;
-  background-image: url("../public/assets/img/2.webp");
+  background-image: url("../public/assets/img/back-101.webp");
   background-size: cover;
   background-attachment: fixed;
 }

@@ -11,17 +11,17 @@ const Projects = () => {
     <div className="project-route">
       <h2 className="section-title">{text.projects.title}</h2>
 
-      <section className="backend-container">
-        <h2 className="project-type_title">Backend</h2>
-        {projectsJSON.backend.map((p) => (
-          <BackendCard key={p.id} project={p} text={text} />
-        ))}
-      </section>
-
       <section className="frontend-container">
         <h2 className="project-type_title">SCRUM Full Projects</h2>
         {projectsJSON.group.map((p) => (
           <FrontendCard key={p.id} project={p} text={text} />
+        ))}
+      </section>
+
+      <section className="backend-container">
+        <h2 className="project-type_title">Backend</h2>
+        {projectsJSON.backend.map((p) => (
+          <BackendCard key={p.id} project={p} text={text} />
         ))}
       </section>
 
